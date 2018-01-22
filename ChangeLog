@@ -1,0 +1,9 @@
+CHANGES
+=======
+
+* [FIX] fix OCA signature
+* [ADD/FIX] add changelog file
+* [ADD/IMP] add contributing page and set coveragerc file
+* [FIX] set versions for flectra
+* [FIX] set flectra version with 1.0
+* [ADD] initial commit

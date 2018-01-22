@@ -1,0 +1,128 @@
+
+Question - 1 :
+	Write a program that accepts a sentence and calculate the number of letters and digits.
+	Suppose the following input is supplied to the program:
+		hello world! 123
+	Then, the output should be:
+		LETTERS 10
+		DIGITS 3
+Hints :
+	In case of input data being supplied to the question, it should be assumed to be a console input.
+
+
+Question - 2 :
+	Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+	Suppose the following input is supplied to the program:
+		Hello world!
+	Then, the output should be:
+		UPPER CASE 1
+		LOWER CASE 9
+Hints :
+	In case of input data being supplied to the question, it should be assumed to be a console input.
+
+
+Question - 3 :
+	You are required to write a program to sort the (name, age, height) tuples by ascending orde.
+	Where name is string, age and height are numbers.
+	The priority is that name > age > score.
+	The tuples are input by console. The sort criteria is:
+		1: Sort based on name;
+		2: Then sort based on age;
+		3: Then sort by score.
+	If the following tuples are given as input to the program:
+		Tom,19,80
+		John,20,90
+		Jony,17,91
+		Jony,17,93
+		Json,21,85
+	Then, the output of the program should be:
+		[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]
+Hints :
+	In case of input data being supplied to the question, it should be assumed to be a console input.
+	We use itemgetter to enable multiple sort keys.
+
+
+Question - 4 :
+	Write a program to compute the frequency of the words from the input.
+	The output should output after sorting the key alphanumerically. 
+	Suppose the following input is supplied to the program:
+		New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
+	Then, the output should be:
+		2:2
+		3.:1
+		3?:1
+		New:1
+		Python:5
+		Read:1
+		and:1
+		between:1
+		choosing:1
+		or:2
+		to:1
+Hint :
+	In case of input data being supplied to the question, it should be assumed to be a console input.
+
+
+Question - 5 :
+	Write a program which can filter even numbers in a list by using filter function.
+	The list is: [1,2,3,4,5,6,7,8,9,10].
+Hints :
+	Use filter() to filter some elements in a list.
+	Use lambda to define anonymous functions.
+
+
+Question - 6 :
+	Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
+Hints :
+	Use map() to generate a list.
+	Use lambda to define anonymous functions.
+
+
+Question - 7 :
+	Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
+
+
+Question - 8 :
+	Generate a random float where the value is between 10 and 100 using Python math module.
+
+
+Question - 9 :
+	Generate a random float where the value is between 5 and 95 using Python math module.
+
+
+Question - 10 :
+	Write a program to shuffle and print the list [3,6,7,8].
+Hints :
+	Use shuffle() function to shuffle a list.
+
+
+Question - 11 :
+	By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
+Hints :
+	Use list comprehension to delete a bunch of element from a list.
+	Use enumerate() to get (index, value) tuple.
+
+
+Question - 12 :
+	By using list comprehension, please write a program generate a 3*5*8 3D array whose each element is 0.
+Hints :
+	Use list comprehension to make an array.
+
+
+Question - 13 :
+	Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array.
+	The element value in the i-th row and j-th column of the array should be i*j.
+
+Example :
+	Suppose the following inputs are given to the program: 3,5
+	Then, the output of the program should be: [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
+
+Hints :
+	Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
+
+
+Question - 14 :
+	Write a program to solve a classic ancient Chinese puzzle: 
+	We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have?
+Hint:
+Use for loop to iterate all possible solutions.
